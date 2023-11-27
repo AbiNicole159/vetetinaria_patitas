@@ -1,0 +1,32 @@
+*{
+   background-color: #b3ded5;
+}
+#cabeza{
+   
+    width: 300px;
+    height: 580px;
+    border-radius: 5%;
+    background-image: url(imagenes/3.jpg);
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+#txtCorreo{
+    width: 180px;
+    height: 30px;
+  display: grid;
+  place-items: center;
+  margin: 1px auto;
+    margin: 7px;
+}
+#txtContrasenna{
+    width: 180px;
+    height: 30px;
+    margin: 7px;
+    
+}
+#btnIngresar{
+    width: 180px;
+    height: 30px;
+    margin: 7px;
+}
