@@ -18,7 +18,7 @@ function ingresar(){
     var rol=sessionStorage.getItem('rolUsuarioActivo');
     switch(rol){
         case '1':
-          window.location.href='index.html';
+          window.location.href='index3.html';
         break;
 
         case '2':
@@ -26,7 +26,7 @@ function ingresar(){
           break;
 
           default:
-            window.location.href = 'principal.html';
+            window.location.href = 'index.html';
             break;
 
 }}
